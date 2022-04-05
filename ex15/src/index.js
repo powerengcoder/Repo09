@@ -1,16 +1,16 @@
 function switchCase(letter){
 switch (letter){
 case "a":
-    console.log("antelope");
+    return "antelope";
     break;
 case "b":
-    console.log("bird");    
+    return "bird";    
     break;
 case "c":
-    console.log("cat");
+    return "cat";
     break;
 default :
-    console.log("stuff");
+    return "stuff";
     break;
 
 }
@@ -22,6 +22,13 @@ switchCase("b");
 switchCase("c");
 switchCase("d");
 switchCase("4");
+
+
+console.log(switchCase("a"));
+console.log(switchCase("b"));
+console.log(switchCase("c"));
+console.log(switchCase("d"));
+console.log(switchCase("4"));
 
 module.exports = switchCase;
 
